@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Styling & JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Adaptive Web Interface with Media Showcase and Live Data</h1>
+    
+</header>
+
+
+<section class="carousel-section">
+    <h2>Image Carousel</h2>
+    <div class="carousel">
+        <img id="carouselImage" src="https://picsum.photos/500/300?1" alt="carousel">
+        <div class="buttons">
+            <button onclick="prevImage()">Previous</button>
+            <button onclick="nextImage()">Next</button>
+        </div>
+    </div>
+</section>
+
+
+<section class="api-section">
+    <h2>Fetch Data from API</h2>
+    <p id="joke">Click the button to get a joke</p>
+    <button onclick="getJoke()">Get Joke</button>
+</section>
+
+<footer>
+    <p>© 2026 Interactive Web Experience | Designed & Developed by Vansh Jingar</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
